@@ -8,8 +8,8 @@ echo "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb
 sudo apt-get update
 sudo apt-get install mongodb-org -y
 ########
-mkdir /var/log/mongodb
-touch /var/log/mongodb/mongod.log
+#mkdir /var/log/mongodb
+#touch /var/log/mongodb/mongod.log
 ansible-galaxy install -r roles.yml -p roles
 ansible-playbook dev_env-setup.yml
 
