@@ -4,8 +4,8 @@
   roles:
     - geerlingguy.docker
     - DavidWittman.redis
-    - franklinkim.mongodb
+#    - franklinkim.mongodb
     - cmprescott.chrome
     - jdauphant.sublimetext
-    - gantsign.atom
+#    - gantsign.atom
     - softasap.sa-neo4j
