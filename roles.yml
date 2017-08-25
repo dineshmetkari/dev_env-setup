@@ -1,6 +1,6 @@
 ---
 - src: geerlingguy.docker
-#- src: franklinkim.mongodb
+- src: franklinkim.mongodb
 - src: DavidWittman.redis
 - src: softasap.sa-neo4j
 - src: cmprescott.chrome
